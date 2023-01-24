@@ -15,7 +15,7 @@ function App() {
     <Router>
     <Menu/>
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/Browsergames" element={<Browsergames/>} />
         <Route path="/Pcgame" element={<Pcgame/>} />
       </Routes>
